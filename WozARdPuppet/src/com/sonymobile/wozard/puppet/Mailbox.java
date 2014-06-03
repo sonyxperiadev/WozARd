@@ -1,0 +1,62 @@
+/*
+* Copyright (c) 2012 Mikael Möller, Lund Institute of Technology
+* Copyright (c) 2012 Per Sörbris, Lund Institute of Technology
+* Copyright (c) 2012-2014 Sony Mobile Communications AB.
+*
+* Permission is hereby granted, free of charge, to any person obtaining a copy
+* of this software and associated documentation files (the "Software"), to deal
+* in the Software without restriction, including without limitation the rights
+* to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+* copies of the Software, and to permit persons to whom the Software is
+* furnished to do so, subject to the following conditions:
+*
+* The above copyright notice and this permission notice shall be included in
+* all copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+* IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+* OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+* THE SOFTWARE.
+*/
+package com.sonymobile.wozard.puppet;
+
+import com.sonymobile.wozard.puppet.PuppetActivity.Package;
+
+/**
+ * A mailbox used to send data between the {@link UDPThread} and the main UI thread 
+ */
+public class Mailbox{
+	private Package img;
+	private boolean available = false;
+	
+	/**
+	 * Sets the new image in the mailbox
+	 * @param newImg The new image to set in the mailbox
+	 */
+	public synchronized void setImg(Package newImg){
+		img = newImg;
+		available = true;
+		notifyAll();
+	}
+	
+	/**
+	 * Retrieves the image from the mailbox. This function blocks until a new image is available
+	 * @return A {@link Package} containing the image
+	 */
+	public synchronized Package getImg(){
+		while(!available){
+			try {
+				wait();
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		available = false;
+
+		return img;
+	}
+}

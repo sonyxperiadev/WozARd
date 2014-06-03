@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (c) 2012 Mikael Möller, Lund Institute of Technology
+* Copyright (c) 2012 Per Sörbris, Lund Institute of Technology
+* Copyright (c) 2012-2014 Sony Mobile Communications AB.
+*
+* Permission is hereby granted, free of charge, to any person obtaining a copy
+* of this software and associated documentation files (the "Software"), to deal
+* in the Software without restriction, including without limitation the rights
+* to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+* copies of the Software, and to permit persons to whom the Software is
+* furnished to do so, subject to the following conditions:
+*
+* The above copyright notice and this permission notice shall be included in
+* all copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+* IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+* OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+* THE SOFTWARE.
+*/ -->
+<!-- <resources xmlns:android="http://schemas.android.com/apk/res/android"    tools:ignore="MissingTranslation"> -->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <string name="app_name">WozARdWizard</string>
+
+    <string-array name="menu_items">
+        <item>Filebrowser</item>
+        <item>Navigation</item>
+        <item>Notifications</item>
+        <item>Predefined sequences</item>
+        <item>Tours</item>
+        <item>Camera view</item>
+        <item>Puppet view</item>
+        <item>Settings</item>
+    </string-array>
+
+    <string name="desc">Image</string>
+    <string name="sendMapString">Send map to puppet</string>
+    <string name="getCoordinatesString">Get puppet coordinates</string>
+    <string name="latString">Latitude: </string>
+    <string name="longString">Longitude: </string>
+    <string name="enableSound">Enable sound</string>
+    <string name="soundEnabler"></string>
+    <string name="soundEnabled">Sound enabled</string>
+    <string name="soundDisabled">Sound disabled</string>
+    <string name="emptyPuppet">Empty puppet screen</string>
+    <string name="notificationType">Choose notification type:</string>
+    <string name="notificationSpecification">Notification specification:</string>
+    <string name="notificationErrorMessage">notifications.xml is missing therefore no notifications are visible</string>
+    <string name="smallNotification">Small notification:</string>
+    <string name="sendSmall">Send small notification</string>
+    <string name="spinnerTitle">Spinner title:</string>
+    <string name="message">Message: </string>
+    <string name="saveNotification">Save notification</string>
+    <string name="createNotifications">Create</string>
+    <string name="organizeNotifications">Organize</string>
+    <string name="emptyMessage">Empty message</string>
+    <string name="deleteButton">X</string>
+    <string name="xmlFileForNotifications">notifications.xml</string>
+    <string name="bigNotification">Big notification: </string>
+    <string name="deleteCustom">Delete notification</string>
+    <string name="sendBig">Send big notification</string>
+    <string name="auto_pic">Take automatic pictures</string>
+    <string name="auto_send">Send camera feed</string>
+
+<!-- View title -->
+<string name="fileBrowserTitle">Filebrowser</string>
+<string name="cameraTitle">Camera view</string>
+<string name="puppetTitle">Puppet view</string>
+<string name="navigationTitle">Navigation</string>
+<string name="notificationTitle">Notifications</string>
+<string name="createNotificationTitle">Create</string>
+<string name="organizeNotificationTitle">Organize</string>
+<string name="tourTitle">Tours</string>
+<string name="predefinedTitle">Predefined seq.</string>
+<string name="settingsTitle">Settings</string>
+<string name="empty">Empty</string>
+
+<!--     notification types -->
+    <string-array name="notificationType_items">
+        <item>SMS</item>
+        <item>Incomming call</item>
+        <item>Mail</item>
+        <item>Location</item>
+        <item>Facebook</item>
+        <item>Twitter</item>
+        <item>Calendar</item>
+        <item>Alarm</item>
+        <item>Google+</item>
+        <item>GoogleTalk</item>
+        <item>Info</item>
+     </string-array> 
+
+    <string name="custom">Custom text \ngoes here..</string>
+    <string name="SMS_custom">From: \nCustom text goes here..</string>
+    
+    <string name="SaveButtonText">Save</string>
+    <string name="DeleteButtonText">Delete</string>
+    <string name="DiscardChangesButton">Discard Changes</string>
+    <string name="NewItemButton">Create New</string>
+    <string name="extra_label">Extra: </string>
+    <string name="help_sms">From: </string>
+    <string name="tour_file_label">Tour commands file</string>
+    <string name="predef_file_label">Predefined commands file</string>
+    <string name="file_parse">path to the file to parse</string>
+    <string name="not_connected_text">Not connected to any player</string>
+    <string name="connected_text">Connected</string>
+    <string name="request_button_text">Update</string>
+
+    <string-array name="directions">
+        <item>Proceed forward</item>
+        <item>Turn right</item>
+        <item>Turn left</item>
+        <item>Stop</item>
+        <item>Turn around</item>
+    </string-array>
+
+    <string name="screenshot_content">Screenshot from the puppet</string>
+	
+    <!-- Tour related -->
+    <string name="start_tour_button">Enable tour mode</string>
+    <string name="disable_tour_button">Disable tour mode</string>
+    <string name="gps_checkbox_text">Use wizard GPS</string>
+    <string name="Longitude">Longitude:</string>
+    <string name="Latitude">Latitude:</string>
+    <string name="CommandLabel">Command: </string>
+    <string name="ThresholdLabel">Threshold: </string>
+    <string name="sd_label">From sdcard:</string>
+    <string name="take_pic_button">Take a picture</string>
+    <string name="new_marker_button">Create marker</string>
+    <string name="sound_label">Sound file: </string>
+    <string name="video_label">Video file: </string>
+    <!-- Menu related -->
+    <string name="menu_user">Jump to puppet view</string>
+    <string name="select_file">Select tourfile</string>
+    <string name="menu_quit">Quit</string>
+    <string name="menu_load">Load</string>
+
+    <string name="action_bar_update">Update</string>
+    <string name="action_bar_clear">Clear</string>
+    <string name="action_bar_default_title"></string>
+    <string name="camera_view_transfer_sound_feed">Transfer sound feed</string>
+    <string name="camera_view_transfer_camera_feed">Transfer camera feed</string>
+    <string name="camera_view_camera_front">Front</string>
+    <string name="camera_view_camera_back">Back</string>
+    <string name="camera_view_auto_picture_interval_text">Auto picture interval (s):</string>
+    <string name="camera_view_auto_picture_interval">15</string>
+    <string name="camera_view_take_pictures">Take automatic pictures</string>
+    <string name="camera_view_take_picture">Take a picture</string>
+    <string name="camera_view_turn_camera_on">Turn on puppet camera</string>
+    <string name="camera_view_turn_camera_off">Turn off puppet camera</string>
+    <string name="camera_view_clear">Clear indicator (if any)</string>
+
+</resources>

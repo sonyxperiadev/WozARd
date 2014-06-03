@@ -1,0 +1,31 @@
+package messages;
+
+option java_package = "com.sonymobile.technology.ardemo.messages";
+
+
+// this is the base message this message can contain other message types
+message Base {
+	optional string cmd = 2; // command to the player
+	optional Data data = 4; // a file
+	optional string req = 5; // a request for an image or file
+	optional string info = 6; // not yet in use
+	optional Location loc = 7; // location data
+	optional bytes screen = 1; // to be used to send screenshots. No need for a name so a Data message is not needed
+	optional uint32 ping = 8; // used to see if the connection is alive
+	optional bytes cam = 9;
+	optional string speech = 10;
+	optional string voicecommand = 11;
+}
+
+// mainly for images. But can be used for other things as well.
+message Data {
+	optional string name = 1;
+	optional bytes data = 2; // the image as a bytearray
+}
+
+
+// message used for sending position data from the gps
+message Location{
+	optional double longitude = 1;
+	optional double latitude = 2;
+}

@@ -1,0 +1,5 @@
+Forward:Proceed forward now
+Right:Turn right now
+Left:Turn Left now
+Stop:Stop now
+TurnAround:Turn around now

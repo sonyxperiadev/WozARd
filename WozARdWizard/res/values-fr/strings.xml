@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string-array name="directions">
+<!--         <item>Aller de l'avant</item> -->
+        <item>tourner à droite</item>
+        <item>tourner à gauche</item>
+        <item>arrêter</item>
+        <item>faire demi-tour</item>
+    </string-array>
+</resources>

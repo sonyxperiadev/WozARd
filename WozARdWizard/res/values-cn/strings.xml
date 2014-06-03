@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string-array name="directions">
+        <item>继续前进</item>
+        <item>向右转</item>
+        <item>向左转</item>
+        <item>停止</item>
+        <item>转身</item>
+    </string-array>
+</resources>

@@ -1,0 +1,103 @@
+<sequence>
+        <item>
+                <description>Show image</description>
+                <command>SHOW_IMAGE</command>
+                <extra>/sdcard/wizard_res/filebrowser/Navigation/goToTheMeetingRoom.png</extra>
+        </item>
+
+        <item>
+                <description>Show image</description>
+                <command>SHOW_IMAGE</command>
+                <extra>/sdcard/wizard_res/filebrowser/Navigation/01 arrow_forward.png</extra>
+        </item>
+
+        <item>
+                <description>Show image</description>
+                <command>SHOW_IMAGE</command>
+                <extra>/sdcard/wizard_res/filebrowser/Navigation/03 arrow_left.png</extra>
+        </item>
+
+        <item>
+                <description>Show image</description>
+                <command>SHOW_IMAGE</command>
+                <extra>/sdcard/wizard_res/filebrowser/Navigation/01 arrow_forward.png</extra>
+        </item>
+
+        <item>
+                <description>Show image</description>
+                <command>SHOW_IMAGE</command>
+                <extra>/sdcard/wizard_res/filebrowser/Project Glass/02 notification_message.png</extra>
+        </item>
+
+
+
+        <item>
+                <description>Show image</description>
+                <command>SHOW_IMAGE</command>
+                <extra>/sdcard/wizard_res/filebrowser/Navigation/01 arrow_forward.png</extra>
+        </item>
+
+        <item>
+                <description>Show image</description>
+                <command>SHOW_IMAGE</command>
+                <extra>/sdcard/wizard_res/filebrowser/Navigation/03 arrow_left.png</extra>
+        </item>
+        <item>
+                <description>Show image</description>
+                <command>SHOW_IMAGE</command>
+                <extra>/sdcard/wizard_res/filebrowser/Navigation/01 arrow_forward.png</extra>
+        </item>
+        <item>
+                <description>Show image</description>
+                <command>SHOW_IMAGE</command>
+                <extra>/sdcard/wizard_res/filebrowser/Navigation/02 arrow_right.png</extra>
+        </item>
+        <item>
+                <description>Show image</description>
+                <command>SHOW_IMAGE</command>
+                <extra>/sdcard/wizard_res/filebrowser/Navigation/01 arrow_forward.png</extra>
+        </item>
+
+        <item>
+                <description>Show image</description>
+                <command>SHOW_IMAGE</command>
+                <extra>/sdcard/wizard_res/filebrowser/Project Glass/02 notification_message.png</extra>
+        </item>
+
+        <item>
+                <description>Show image</description>
+                <command>SHOW_IMAGE</command>
+                <extra>/sdcard/wizard_res/filebrowser/Navigation/readMessage.png</extra>
+        </item>
+
+        <item>
+                <description>Show image</description>
+                <command>SHOW_IMAGE</command>
+                <extra>/sdcard/wizard_res/filebrowser/Navigation/01 arrow_forward.png</extra>
+        </item>
+
+        <item>
+                <description>Show image</description>
+                <command>SHOW_IMAGE</command>
+                <extra>/sdcard/wizard_res/filebrowser/Navigation/03 arrow_left.png</extra>
+        </item>
+
+        <item>
+                <description>Show image</description>
+                <command>SHOW_IMAGE</command>
+                <extra>/sdcard/wizard_res/filebrowser/Navigation/01 arrow_forward.png</extra>
+        </item>
+
+        <item>
+                <description>Show image</description>
+                <command>SHOW_IMAGE</command>
+                <extra>/sdcard/wizard_res/filebrowser/Navigation/02 arrow_right.png</extra>
+        </item>
+        <item>
+                <description>Show image</description>
+                <command>SHOW_IMAGE</command>
+                <extra>/sdcard/wizard_res/filebrowser/Navigation/youArrivedToYourDestination.png</extra>
+        </item>
+
+</sequence>
+

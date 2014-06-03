@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- No translation of sample extensions -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <!-- Name of app, shown when installing/uninstalling extension -->
+    <string name="app_name">WozARdSmartWatchn</string>
+    <!-- Title of preference activity -->
+    <string name="preference_activity_title">WOZ settings</string>
+    <!-- Name of extension, shown in preferences -->
+    <string name="extension_name">WOZ ex</string>
+    <!-- Configuration title shown in preferences -->
+    <string name="configuration_text">WOZ settings</string>
+    <!-- Menu option shown in preferences -->
+    <string name="preference_option_read_me">READ ME</string>
+    <!-- Read me text shown in dialog -->
+    <string name="preference_option_read_me_txt">The sample control extension starts an animation on the accessory when started. This extension supports both SmartWatch and Smart Wireless Headset pro.\n\nIn SmartWatch the animation can be stopped by tapping on the screen. \n\nSmart Wireless Headset pro shows a scrolling text that can be paused and resumed with Play/Pause key. The text can also be manually controlled by using the the Previous and Next Keys. Control animation speed can be changed using Volume up and Volume down key.</string>
+
+</resources>

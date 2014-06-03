@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string-array name="directions">
+        <item>Gehen Sie nach vorne</item>
+        <item>Biegen Sie rechts ab</item>
+        <item>Biegen Sie links ab</item>
+        <item>stoppen</item>
+        <item>Drehen Sie sich um</item>
+    </string-array>
+</resources>

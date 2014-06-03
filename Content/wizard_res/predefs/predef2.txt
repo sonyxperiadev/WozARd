@@ -1,0 +1,30 @@
+Show notification, SHOW_IMAGE, /sdcard/ardemocontent/Navigation/notification.jpg
+Show image, SHOW_IMAGE, /sdcard/ardemocontent/Project Glass/05 map.png
+Show notification, SHOW_IMAGE, /sdcard/ardemocontent/Navigation/notification.jpg
+Show image, SHOW_IMAGE, /sdcard/ardemocontent/Project Glass/05 map.png
+Show notification, SHOW_IMAGE, /sdcard/ardemocontent/Navigation/notification.jpg
+Show image, SHOW_IMAGE, /sdcard/ardemocontent/Project Glass/05 map.png
+Show notification, SHOW_IMAGE, /sdcard/ardemocontent/Navigation/notification.jpg
+Show image, SHOW_IMAGE, /sdcard/ardemocontent/Project Glass/05 map.png
+Show notification, SHOW_IMAGE, /sdcard/ardemocontent/Navigation/notification.jpg
+Show image, SHOW_IMAGE, /sdcard/ardemocontent/Project Glass/05 map.png
+Show notification, SHOW_IMAGE, /sdcard/ardemocontent/Navigation/notification.jpg
+Show image, SHOW_IMAGE, /sdcard/ardemocontent/Project Glass/05 map.png
+Show notification, SHOW_IMAGE, /sdcard/ardemocontent/Navigation/notification.jpg
+Show image, SHOW_IMAGE, /sdcard/ardemocontent/Project Glass/05 map.png
+Show notification, SHOW_IMAGE, /sdcard/ardemocontent/Navigation/notification.jpg
+Show image, SHOW_IMAGE, /sdcard/ardemocontent/Project Glass/05 map.png
+Show notification, SHOW_IMAGE, /sdcard/ardemocontent/Navigation/notification.jpg
+Show image, SHOW_IMAGE, /sdcard/ardemocontent/Project Glass/05 map.png
+Show notification, SHOW_IMAGE, /sdcard/ardemocontent/Navigation/notification.jpg
+Show image, SHOW_IMAGE, /sdcard/ardemocontent/Project Glass/05 map.png
+Show notification, SHOW_IMAGE, /sdcard/ardemocontent/Navigation/notification.jpg
+Show image, SHOW_IMAGE, /sdcard/ardemocontent/Project Glass/05 map.png
+Show notification, SHOW_IMAGE, /sdcard/ardemocontent/Navigation/notification.jpg
+Show image, SHOW_IMAGE, /sdcard/ardemocontent/Project Glass/05 map.png
+Show notification, SHOW_IMAGE, /sdcard/ardemocontent/Navigation/notification.jpg
+Show image, SHOW_IMAGE, /sdcard/ardemocontent/Project Glass/05 map.png
+Show notification, SHOW_IMAGE, /sdcard/ardemocontent/Navigation/notification.jpg
+Show image, SHOW_IMAGE, /sdcard/ardemocontent/Project Glass/05 map.png
+Show notification, SHOW_IMAGE, /sdcard/ardemocontent/Navigation/notification.jpg
+Show image, SHOW_IMAGE, /sdcard/ardemocontent/Project Glass/05 map.png
