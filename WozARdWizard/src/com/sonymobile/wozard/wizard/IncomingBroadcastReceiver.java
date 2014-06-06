@@ -42,17 +42,17 @@ public class IncomingBroadcastReceiver extends BroadcastReceiver  {
 	@Override
 	public void onReceive(Context context, Intent intent) {
 		Monitor mon = Monitor.getInstance();
-		if(intent.getAction().equals("com.sonymobile.technology.ardemo.SWIPE_UP")){
+		if(intent.getAction().equals("com.sonymobile.wozard.wizard.SWIPE_UP")){
 			mon.setCommand(ControllerActivity.SWIPE_UP_INTENT);
-		}else if(intent.getAction().equals("com.sonymobile.technology.ardemo.SWIPE_LEFT")){
+		}else if(intent.getAction().equals("com.sonymobile.wozard.wizard.SWIPE_LEFT")){
 			mon.setCommand(ControllerActivity.SWIPE_LEFT_INTENT);
-		}else if(intent.getAction().equals("com.sonymobile.technology.ardemo.SWIPE_RIGHT")){
+		}else if(intent.getAction().equals("com.sonymobile.wozard.wizard.SWIPE_RIGHT")){
 			mon.setCommand(ControllerActivity.SWIPE_RIGHT_INTENT);
-		}else if(intent.getAction().equals("com.sonymobile.technology.ardemo.SWIPE_DOWN")){
+		}else if(intent.getAction().equals("com.sonymobile.wozard.wizard.SWIPE_DOWN")){
 			mon.setCommand(ControllerActivity.SWIPE_DOWN_INTENT);
-		}else if(intent.getAction().equals("com.sonymobile.technology.ardemo.PRESS")){
+		}else if(intent.getAction().equals("com.sonymobile.wozard.wizard.PRESS")){
 			mon.setCommand(ControllerActivity.PRESS_INTENT);
-		}else if(intent.getAction().equals("com.sonymobile.technology.ardemo.LONG_PRESS")){
+		}else if(intent.getAction().equals("com.sonymobile.wozard.wizard.LONG_PRESS")){
 			mon.setCommand(ControllerActivity.LONG_PRESS_INTENT);
 		}
 	}

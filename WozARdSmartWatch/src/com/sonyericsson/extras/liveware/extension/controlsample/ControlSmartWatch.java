@@ -67,12 +67,12 @@ class ControlSmartWatch extends ControlExtension {
 
 	private WOZExtensionService wozService;
 
-	public static final String SWIPE_UP_INTENT = "com.sonymobile.technology.ardemo.SWIPE_UP";
-	public static final String SWIPE_LEFT_INTENT = "com.sonymobile.technology.ardemo.SWIPE_LEFT";
-	public static final String SWIPE_RIGHT_INTENT = "com.sonymobile.technology.ardemo.SWIPE_RIGHT";
-	public static final String SWIPE_DOWN_INTENT = "com.sonymobile.technology.ardemo.SWIPE_DOWN";
-	public static final String PRESS_INTENT = "com.sonymobile.technology.ardemo.PRESS";
-	public static final String LONG_PRESS_INTENT = "com.sonymobile.technology.ardemo.LONG_PRESS";
+	public static final String SWIPE_UP_INTENT = "com.sonymobile.wozard.wizard.SWIPE_UP";
+	public static final String SWIPE_LEFT_INTENT = "com.sonymobile.wozard.wizard.SWIPE_LEFT";
+	public static final String SWIPE_RIGHT_INTENT = "com.sonymobile.wozard.wizard.SWIPE_RIGHT";
+	public static final String SWIPE_DOWN_INTENT = "com.sonymobile.wozard.wizard.SWIPE_DOWN";
+	public static final String PRESS_INTENT = "com.sonymobile.wozard.wizard.PRESS";
+	public static final String LONG_PRESS_INTENT = "com.sonymobile.wozard.wizard.LONG_PRESS";
 
 	public final int SWIPE_UP = 0;
 	public final int SWIPE_DOWN = 1;
