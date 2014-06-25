@@ -30,7 +30,7 @@ The applications require Android:
 9. Configure the Puppet application so that it matches the capabilities of the device. For example, if you are using a standard smartphone or tablet the default setting should be fine. If on the other hand you are using a optical see through HMD (e.g. Epson Moverio) then you should set the ... to ....
 
 ### Usage instructions
-AT the current time there is no manual for how to use the applications. We are working on this so stay tuned.
+Currently there is no manual for how to use the applications. We are working on this so stay tuned.
 
 ### Contact information
 * Günter Alce, gunter.alce@sonymobile.com, Sony Mobile Communications
