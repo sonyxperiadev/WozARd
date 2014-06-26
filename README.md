@@ -19,18 +19,18 @@ The applications require Android:
 
 ### Installation and setup
 1. Install the Wizard application on the wizard device.
-2. Copy the [Wizard_res](Content/wizard_res) folder to ??? on the wizard device.
+2. Copy the [Content](Content) folder to the top level of the internal memory or memory card on the wizard device.
 3. Optional: Install the SmartWatch extension. Note that this require a Sony SmartWatch or SmartWatch 2 device and related software (SmartWatch app ([1](https://play.google.com/store/apps/details?id=com.sonyericsson.extras.smartwatch) or [2](https://play.google.com/store/apps/details?id=com.sonymobile.smartconnect.smartwatch2)) and [SmartConnect](https://play.google.com/store/apps/details?id=com.sonyericsson.extras.liveware))
 4. Install the Puppet application on the puppet device.
-5. Copy the [Puppet_res](Content/puppet_res) folder to ??? on the puppet device.
+5. Copy the [Content](Content) folder to the top level of the internal memory or memory card on the puppet device.
 6. Turn on Wi‐Fi Hotspot on the wizard device and then connect the puppet device to the wizard hotspot network. See [this guide](http://www.wikihow.com/Turn-Your-Android-Phone-Into-a-Wi%E2%80%90Fi-Hotspot) if you are unsure how to do this.
 7. Start the Wizard application.
 8. Start the Puppet application.
 9. Make sure the Puppet application connects correctly to the Wizard app. The bar along the top part of the screen in the Wizard app should go from red to green color.
-9. Configure the Puppet application so that it matches the capabilities of the device. For example, if you are using a standard smartphone or tablet the default setting should be fine. If on the other hand you are using a optical see through HMD (e.g. Epson Moverio) then you should set the ... to ....
+9. Configure the Puppet application so that it matches the capabilities of the device. For example, if you are using a standard smartphone or tablet the default setting should be fine. If on the other hand you are using a optical see through HMD (e.g. Epson Moverio) then you should turn on "optical see-through" in settings.
 
 ### Usage instructions
-Currently there is no manual for how to use the applications. We are working on this so stay tuned.
+Currently there is no manual for how to use the applications. We are working on this so stay tuned. Don't hesitate to explore the Wizard application UI and try it out.
 
 ### Contact information
 * Günter Alce, gunter.alce@sonymobile.com, Sony Mobile Communications
